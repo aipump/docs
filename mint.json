@@ -1,91 +1,75 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "aiPump documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#ff9229",
+    "light": "#ff9229",
+    "dark": "#ff9229"
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@aipump.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Website",
+    "url": "https://www.aipump.ai/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  "topAnchor": {
+    "name": "Documentation",
+    "icon": "download"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "intro"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "AI agents",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "basics",
+        "categories",
+        "market-segmentation"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "AI agent market",
       "pages": [
-        "api-reference/introduction"
+        "inception",
+        "market-evolution",
+        "innovation"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "aiPump Platform",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "ai-agent-launch-platform",
+        "launch-mechanism",
+        "launch-tutorial"
+      ]
+    },
+    {
+      "group": "",
+      "pages": [
+        "disclaimer"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+  },
+  "metadata": {
+      "og:url": "https://www.aipump.ai/",
+      "og:type": "website",
+      "og:title": "aiPump docs",
+      "og:description": "Documentation - Pump Layer for AI Agents.",
+      "og:image": "https://cdn.prod.website-files.com/673dc59d09096b984d43a8a6/6740778af5f7e97085413fa9_aiPUMP%20-%20Open%20Graph.png"
   }
 }

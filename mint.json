@@ -33,7 +33,7 @@
       ]
     },
     {
-      "group": "AI agents",
+      "group": "AI Agents",
       "pages": [
         "basics",
         "categories",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "group": "AI agent market",
+      "group": "AI Agent Market",
       "pages": [
         "inception",
         "market-evolution",
@@ -59,7 +59,7 @@
     {
       "group": "",
       "pages": [
-        "disclaimer"
+        "Disclaimer"
       ]
     }
   ],
